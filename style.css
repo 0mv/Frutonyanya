@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    color: #000000;
+    background-color: #f2f2f2;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.header {
+	padding: 0;
+    width: 1000px;
+    height: 658px;
+    background-color: #FEE5E6;
+    background-image: url("./img/intro.png");
+    background-repeat: no-repeat;
+}
+
+.header-top {
+	padding-left: 120px;
+	padding-right: 120px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav {
+	padding-top: 17px;
+}
+
+.nav a {
+	color: #023748;
+	font-size: 20px;
+	line-height: 27px;
+	text-decoration: none;
+	margin-left: 30px;
+	border-bottom: solid 1px #023748;
+	cursor: pointer;
+}
+
+.nav a:hover,
+.nav a:focus {
+	color: #017974;
+	border-bottom: solid 1px #017974;
+}
+
+.nav a:active {
+	color: #023748;
+	border-bottom: solid 1px #023748;
+}
+
+.main-title {
+	margin: 0;
+	padding: 0;
+	color: #003951;
+	font-size: 72px;
+	line-height: 74px;
+	text-align: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 588px;
+}
+
+section {
+	padding-left: 120px;
+	padding-right: 120px;
+	margin-bottom: 120px;
+}
+
+.section-title {
+	font-size: 48px;
+	line-height: 65px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+	width: 700px;
+}
+
+.description {
+	font-size: 32px;
+	line-height: 110%;
+	text-align: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+	width: 700px;
+}
+
+.product-title {
+	font-size: 24px;
+	line-height: 115%;
+	font-weight: bold;
+	margin: 0;
+	margin-top: 24px;
+	margin-bottom: 18px;
+}
+
+.btn {
+	margin: 0;
+    padding: 0;
+    font: inherit;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    background-color: #00625E;
+    border: none;
+    border-radius: 6px;
+    width: 136px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
+.btn:hover,
+.btn:focus {
+	color: #FFFFFF  ;
+	background-color: #014744;
+}
+
+.btn:active {
+	color: #C2D8D7;
+	background-color: #014744;
+}
+
+
+.cookies {
+	float: left;
+	margin-right: 47px;
+}
+
+.snack {
+	margin-bottom: 50px;
+}
+
+.footer {
+	padding-left: 120px;
+	padding-right: 120px;
+	margin: o;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
+
+.footer-copyright {
+	margin: 0;
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.social {
+	display: flex;
+	justify-content: space-between;
+}
+
+.social-button {
+	width: 32px;
+	height: 32px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.social-button-vk {
+	background-image: url("./img/Vkontakte.svg");
+}
+
+.social-button-ok {
+	background-image: url("./img/Odnoklassniki.svg");
+}
+
+.social-button-yz {
+	background-image: url("./img/YandexZen.svg");
+}
+
+.social-button-tg {
+	background-image: url("./img/Telegram.svg");
+}
