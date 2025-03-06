@@ -23,18 +23,16 @@ body {
 }
 
 .nav {
-padding-top: 0;
 display: flex;
 align-items: center;
 }
 
 .nav a {
-	padding-top: 0;
-	margin-right: 30px;
 	color: #023748;
 	font-size: 20px;
 	line-height: 110%;
 	text-decoration: none;
+	margin-right: 30px;
 	border-bottom: solid 1px rgba(2, 55, 72, 68%);
 	cursor: pointer;
 }
