@@ -184,19 +184,3 @@ section {
 	margin-left: 10px;
 	cursor: pointer;
 }
-
-.social-button-vk {
-	background-image: url("./img/Vkontakte.svg");
-}
-
-.social-button-ok {
-	background-image: url("./img/Odnoklassniki.svg");
-}
-
-.social-button-yz {
-	background-image: url("./img/YandexZen.svg");
-}
-
-.social-button-tg {
-	background-image: url("./img/Telegram.svg");
-}
