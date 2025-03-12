@@ -61,6 +61,7 @@ align-items: center;
 .main-title {
 	margin: 0;
 	padding: 0;
+	margin-top: 60px;
 	color: #003951;
 	font-size: 72px;
 	line-height: 102%;
